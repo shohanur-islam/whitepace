@@ -305,3 +305,19 @@ Pricing Area CSS
     margin-bottom: 30px;
   }
 }
+
+/* 
+Your Work Area CSS
+*/
+.your-work-area {
+  padding: 140px 0;
+  background-color: #043873;
+  color: #fff;
+}
+.your-work-area .theme-text h3 {
+  color: #fff;
+}
+.your-work-area .theme-text p {
+  color: #fff;
+  margin-bottom: 60px;
+}
