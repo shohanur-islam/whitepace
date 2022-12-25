@@ -44,6 +44,15 @@ body {
   border-radius: 8px;
   padding: 16px 24px !important;
 }
+.theme-button-three {
+  display: inline-block;
+  background: #fff;
+  color: #212529 !important;
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+  padding: 16px 24px !important;
+  text-decoration: none;
+}
 .theme-button img {
   margin-left: 10px;
 }
@@ -237,5 +246,62 @@ Customise Area CSS
 @media (max-width: 991px) {
   .customise-area {
     padding: 80px 0;
+  }
+}
+
+/* 
+Pricing Area CSS
+*/
+.pricing-area {
+  padding: 140px 0;
+  background-color: #ffffff;
+}
+.pricing-area .theme-text {
+  margin-bottom: 60px;
+}
+.single-pricing {
+  color: #212529;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+  padding: 40px 44px;
+}
+.single-pricing h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.single-pricing h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 20px 0;
+}
+.single-pricing ul {
+  margin: 0;
+  padding: 0;
+  margin: 25px 0;
+}
+.single-pricing ul li {
+  list-style: none;
+  margin-bottom: 28px;
+}
+.single-pricing ul li:last-child {
+  margin-bottom: 0;
+}
+.special-pricing {
+  padding: 80px 44px;
+  background-color: #043873;
+  color: #fff;
+}
+.special-pricing h2 {
+  color: #ffe492;
+}
+
+@media (max-width: 991px) {
+  .pricing-area {
+    padding: 80px 0;
+  }
+  .single-pricing {
+    margin-bottom: 30px;
   }
 }
