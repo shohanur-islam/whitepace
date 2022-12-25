@@ -347,3 +347,28 @@ Your Task Area CSS
     margin-top: 80px;
   }
 }
+
+/* 
+Sponsors Area CSS
+*/
+.sponsors-area {
+  padding: 140px 0;
+  background-color: #fff;
+}
+.sponsors-area .theme-text {
+  margin-bottom: 80px;
+}
+.single-sponsor img {
+  height: 55px;
+  width: auto;
+}
+
+@media (max-width: 991px) {
+  .sponsors-area {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .sponsors-area .single-sponsor {
+    margin-bottom: 50px;
+  }
+}
