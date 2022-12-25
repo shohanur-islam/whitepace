@@ -202,3 +202,40 @@ Managment Area CSS
     margin-bottom: 50px;
   }
 }
+
+/* 
+Extension Area CSS
+*/
+.extension-area {
+  padding: 140px 0;
+  background-color: #043873;
+}
+.extension-area .theme-text h3 {
+  color: #ffffff;
+}
+.extension-area .theme-text p {
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .extension-area {
+    padding: 80px 0;
+  }
+  .extension-area .theme-button {
+    margin-bottom: 50px;
+  }
+}
+
+/* 
+Customise Area CSS
+*/
+.customise-area {
+  padding: 140px 0;
+  background-color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .customise-area {
+    padding: 80px 0;
+  }
+}
