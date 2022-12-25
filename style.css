@@ -319,5 +319,31 @@ Your Work Area CSS
 }
 .your-work-area .theme-text p {
   color: #fff;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  .your-work-area {
+    padding: 80px 0;
+  }
+}
+
+/* 
+Your Task Area CSS
+*/
+.your-task-area {
+  padding: 140px 0;
+  background-color: #fff;
+}
+.your-task-area .theme-text p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  .your-task-area {
+    padding: 80px 0;
+  }
+  .your-task-area .theme-text {
+    margin-top: 80px;
+  }
 }
