@@ -372,3 +372,31 @@ Sponsors Area CSS
     margin-bottom: 50px;
   }
 }
+
+/* 
+Apps Area CSS
+*/
+.apps-area {
+  padding: 140px 0;
+  background-image: url(img/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.apps-area .theme-text h3 {
+  color: #fff;
+}
+.apps-area .theme-text p {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .apps-area {
+    padding: 80px 0;
+  }
+  .apps-area .apps-image {
+    margin-bottom: 80px;
+  }
+  .apps-area .theme-text h3 {
+    font-size: 36px;
+  }
+}
