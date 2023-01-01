@@ -400,3 +400,72 @@ Apps Area CSS
     font-size: 36px;
   }
 }
+
+/* 
+Testimonial Area CSS
+*/
+.testimonial-area {
+  padding: 140px 0;
+  background-color: #fff;
+}
+.testimonial-area .theme-text {
+  margin-bottom: 50px;
+}
+.single-testimonial {
+  background: #4f9cf9;
+  box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 50px 30px;
+  color: #212529;
+}
+.testimonial-text {
+  border-bottom: 1px solid #fff;
+}
+.testimonial-text img {
+  margin-bottom: 30px;
+  height: 60px;
+  width: auto !important;
+}
+.testimonial-text p {
+  margin-bottom: 25px;
+  color: #fff;
+}
+.testimonial-author {
+  margin-top: 40px;
+  display: flex;
+}
+.author-image {
+  margin-right: 25px;
+}
+.author-text h3 {
+  font-size: 24px;
+  color: #043873;
+}
+.author-text p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.testimonial-area .owl-dots {
+  text-align: center;
+  margin-top: 50px;
+}
+.testimonial-area .owl-dots button {
+  height: 15px;
+  width: 15px;
+  background-color: #4f9cf9 !important;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.testimonial-area .owl-dots button.active {
+  background-color: #043873 !important;
+}
+
+@media (max-width: 991px) {
+  .testimonial-area {
+    padding: 80px 0;
+  }
+  .testimonial-area .theme-text h3 {
+    font-size: 40px;
+  }
+}
