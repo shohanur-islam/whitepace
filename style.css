@@ -566,6 +566,29 @@ Footer Area CSS
   margin-bottom: 20px;
 }
 
+.footer-bottom {
+  border-top: 1px solid #2e4e73;
+  padding: 32px 0;
+}
+.footer-lang a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-lang i {
+  margin-right: 10px;
+}
+.footer-lang .dropdown-menu a {
+  color: #212529;
+}
+.footer-social {
+  text-align: right;
+}
+.footer-social a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 32px;
+}
+
 @media (max-width: 991px) {
   .footer-top {
     text-align: center;
@@ -578,5 +601,22 @@ Footer Area CSS
   }
   .footer-contect {
     margin-top: 40px;
+  }
+  .footer-bottom {
+    border-top: none;
+  }
+  .footer-lang {
+    text-align: center;
+  }
+  .footer-copyright {
+    padding: 32px 0;
+  }
+  .footer-social {
+    text-align: center;
+    border-top: 1px solid #2e4e73;
+    padding-top: 32px;
+  }
+  .footer-social a {
+    margin: 0 16px;
   }
 }
