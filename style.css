@@ -507,6 +507,44 @@ Footer Area CSS
   .header-area {
     font-size: 16px;
   }
+
+  /* 
+  Customise CSS
+  */
+  .customise-area .theme-text h3 {
+    font-size: 60px;
+  }
+
+  /* 
+  Your Work CSS
+  */
+  .your-work-area .theme-text h3 {
+    font-size: 60px;
+  }
+
+  /* 
+  Apps Area CSS
+  */
+  .apps-area .theme-text h3 {
+    font-size: 60px;
+  }
+
+  /* 
+  Testimonial CSS
+  */
+  .testimonial-area .theme-text h3 {
+    font-size: 60px;
+  }
+
+  /* 
+  Trial CSS
+  */
+  .trial-area .trial-text h3 {
+    font-size: 60px;
+  }
+  .trial-area .trial-text p {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1199px) {
