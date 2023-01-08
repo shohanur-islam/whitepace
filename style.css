@@ -53,7 +53,7 @@ body {
   padding: 16px 24px !important;
   text-decoration: none;
 }
-.theme-button img {
+.theme-button i {
   margin-left: 10px;
 }
 
@@ -512,5 +512,71 @@ Trial Area CSS
   .trial-image a {
     margin: 0;
     margin-right: 40px;
+  }
+}
+
+/* 
+Footer Area CSS
+*/
+.footer-area {
+  padding-top: 140px;
+  background-color: #043873;
+  border: 1px solid #212529;
+}
+.footer-top {
+  padding-bottom: 60px;
+}
+.footer-about img {
+  margin-bottom: 15px;
+}
+.footer-link h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-link p {
+  font-size: 16px;
+}
+.footer-link ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-link ul li {
+  list-style: none;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 10px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.footer-link a:hover {
+  color: #ffe492;
+}
+.footer-contect h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-contect p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .footer-top {
+    text-align: center;
+  }
+  .footer-about {
+    margin-bottom: 40px;
+  }
+  .footer-link {
+    margin: 40px 0;
+  }
+  .footer-contect {
+    margin-top: 40px;
   }
 }
